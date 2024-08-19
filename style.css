@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #09153F;
+    gap: 10px;
+}
+#input{
+    height: 50px;
+    font-size: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.container button{
+    padding: 11px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}
+.container button:active{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
